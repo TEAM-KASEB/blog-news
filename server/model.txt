@@ -1,0 +1,34 @@
+MODELS-->
+
+    article:
+        |___id
+        |___title
+        |___description
+        |___media(image, video)
+        |___views
+        |___reply_id
+        |___user_id (author)
+        |___timestamp
+
+    user: 
+        |___id
+        |___firstname
+        |___lastname
+        |___username
+        |___country
+        |___image
+        |___role (admin, author, user)
+        |___followers(user_id)
+        |___following(user_id)
+        |___is_active
+        |___articles
+        |___saved_articles
+        |___timestamp
+
+    reply: 
+        |___id
+        |___text
+        |___on_news(boolean)
+        |___object_id
+        |___user_id
+        |___timestamp

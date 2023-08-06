@@ -1,0 +1,14 @@
+URL={{https://WHATEVER/api/v1}}
+
+URL/user/<<CRUD>> --> 4endpoints
+
+URL/home
+URL/news/search?...
+
+URL/article/getbyid
+URL/article/getbytitle
+URL/article/create
+URL/article/update
+URL/article/delete
+
+URL/reply/<<CRUD>> --> 4endpoints
